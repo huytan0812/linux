@@ -29,3 +29,15 @@ history -a
 declare -p IFS
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+help IFS
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+IFS --help
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+man IFS
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+info IFS
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
