@@ -76,3 +76,6 @@ history -a
 help test
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+cp courses.csv courses_test.csv
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
