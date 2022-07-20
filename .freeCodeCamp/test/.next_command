@@ -157,3 +157,27 @@ git add insert_data.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
 git commit -am "Add insert_data to refer"
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remoted add linux https://github.com/huytan0812/linux.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git remote add linux https://github.com/huytan0812/linux.git
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git push linux
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -am "Add insert_data.sh to refer"
