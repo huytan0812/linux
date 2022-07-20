@@ -153,3 +153,7 @@ history -a
 pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+git add insert_data.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git commit -am "Add insert_data to refer"
